@@ -1,0 +1,124 @@
+/*färger 
+#ffdcdc
+#f59794
+#c21219
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+body {
+  background-color: #ffdcdc;
+}
+
+.logo_img {
+  height: 40px;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "main main main main main main"
+    "footer footer footer footer footer footer";
+  grid-template-rows: 100px auto 100px;
+  gap: 15px 10px;
+}
+header {
+  grid-area: header;
+  background-color: #f59794;
+  grid-column: 1 / 7;
+}
+.hero {
+  border: 3px solid rgb(253, 253, 16);
+  background-image: url(assets/glas.png);
+}
+
+.inner_container {
+  border: 3px solid green;
+  grid-area: main;
+  display: grid;
+  grid-template-areas:
+    "content content content content content content"
+    "newsletter newsletter newsletter newsletter newsletter newletter"
+    "offer offer offer offer_img "
+    "ingredients ingredients ingredients";
+}
+.content {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 1px solid black;
+  row-gap: 2px;
+}
+.item {
+  background-color: #c21219;
+  width: 50px;
+  height: 60px;
+}
+
+.newsletter {
+  border: 3px solid rgb(244, 112, 35);
+  grid-area: newsletter;
+}
+
+.offer {
+  grid-area: offer;
+  grid-column: 1 / 4;
+}
+.offer_img {
+  grid-area: offer_img;
+  height: 250px;
+}
+.ingredients {
+  grid-area: ingredients;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #f59794;
+}
+*/
+
+body {
+  background-color: #ffdcdc;
+}
+
+.logo_img {
+  height: 40px;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "content content content content content content"
+    "main main main main main main"
+    "footer footer footer footer footer footer";
+  grid-template-rows: 80px auto 2pxpx;
+  grid-template-columns: 1fr 1fr;
+}
+
+header {
+  background-color: aqua;
+  grid-area: header;
+}
+.hero {
+  background-color: aquamarine;
+  grid-area: content;
+}
+.inner_container {
+  grid-area: main;
+  background-color: blue;
+}
+
+footer {
+  grid-area: footer;
+  background-color: brown;
+}
+.offer_img {
+  height: 200px;
+}
